@@ -1,0 +1,42 @@
+#nav-container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    justify-content: center;
+
+}
+
+#nav-container a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+    
+}
+#form{
+    font-size: 15px;
+    background-color: burlywood;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+}
+h3,h1{
+    text-align: center;
+}
+#container{
+    
+    font-size: 16px;
+    text-align: center;
+}
+#quizForm{
+    text-align: center;
+    background-color: bisque;
+    width: 50%;
+    margin: 0 auto;
+}
+#card{
+    width: 30%;
+    color: bisque;
+}

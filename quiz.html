@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="nav"></div>
+    <!-- <h3>Quiz management page</h3> -->
+    <h1>Add New Question</h1>
+    <div id="container"></div>
+        <form id="quizForm">
+           
+            <label>Question Statement:</label>
+            <input type="text" id="title" required><br>
+            <br>
+            <label>Option A:</label>
+            <input type="text" id="optionA" required><br>
+            <br>
+            <label>Option B:</label>
+            <input type="text" id="optionB" required><br>
+            <br>
+            <label>Option C:</label>
+            <input type="text" id="optionC" required><br>
+            <br>
+            <label>Option D:</label>
+            <input type="text" id="optionD" required><br>
+            <br>
+            <label>Correct Option:</label>
+            <input type="text" id="correctOption" required><br>
+            <br>
+            <button type="submit">Add Question</button>
+        </form>
+    
+</body>
+<script src="./navbar.js" type="module"></script>
+<script src="./Quiz.js" type="module"></script>
+</html>

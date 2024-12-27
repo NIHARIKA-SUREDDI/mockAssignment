@@ -1,0 +1,1 @@
+export const baseUrl="https://scythe-gold-bellflower.glitch.me/questions";
